@@ -1,3 +1,19 @@
+# Notes about running Subscriber Mode Locally or in 3rd party cloud
+
+ Set Environment Variables:
+ 
+    
+      Umbraco__Storage__AzureBlob__Media__ConnectionString
+
+      Umbraco__Storage__AzureBlob__Media__ContainerName
+
+      ConnectionString__umbracoDbDSN
+      
+ In your Subscriber launch settings. 
+
+
+**Do not commit and push it to  Git**
+
 # Welcome to Umbraco Cloud
 
 In order to run Umbraco locally you will need to [install the .NET 8.0 SDK](https://dotnet.microsoft.com/download) (if you do not have this already).
