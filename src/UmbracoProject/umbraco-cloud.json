@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "loadbalancev13 githubactions secrets googlecloudrun",
+      "Alias": "loadbalancev13-githubactions-secrets-googlecloudrun",
+      "Id": "51252b82-bb40-467a-b24a-1671530af81d",
+      "Workspaces": [
+        {
+          "Id": "adbc60c1-ce5b-4d15-b74c-d563c8e2a85e",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://loadbalancev13-githubactions-secrets-googlecloudrun.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
