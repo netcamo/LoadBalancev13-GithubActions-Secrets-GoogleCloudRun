@@ -1,3 +1,3 @@
 [project]
-base = "src/UmbracoProject"
-csproj = "UmbracoProject.csproj"
+base = "Loadbalancev13GithubactionsSecretsGooglecloudrun.Web"
+csproj = "Loadbalancev13GithubactionsSecretsGooglecloudrun.Web.csproj"
