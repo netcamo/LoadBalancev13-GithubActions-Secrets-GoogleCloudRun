@@ -2,6 +2,9 @@
 
  Set Environment Variables:
  
+
+
+
     
       Umbraco__Storage__AzureBlob__Media__ConnectionString
       #Should contain "BlobEndpoint="
