@@ -4,10 +4,11 @@
  
     
       Umbraco__Storage__AzureBlob__Media__ConnectionString
+      #Should contain "BlobEndpoint="
 
       Umbraco__Storage__AzureBlob__Media__ContainerName
 
-      ConnectionString__umbracoDbDSN
+      ConnectionStrings__umbracoDbDSN
       
  In your Subscriber launch settings. 
 
