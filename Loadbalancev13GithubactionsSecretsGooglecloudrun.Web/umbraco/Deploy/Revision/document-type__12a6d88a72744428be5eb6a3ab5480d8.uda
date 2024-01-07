@@ -22,6 +22,13 @@
       "Alias": "options",
       "PropertyTypes": [
         {
+          "Key": "b16cac21-e74c-4d49-9e64-ff6c86ecdeca",
+          "Alias": "message",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Name": "Message",
+          "SortOrder": 2
+        },
+        {
           "Key": "c1bdbe1c-6721-42cf-abcf-ae859a2312d6",
           "Alias": "pageName",
           "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
