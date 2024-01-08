@@ -19,4 +19,20 @@
     }
 }
 
-<p>Page name is: @Model.Value("message")</p>
+<p>Message is: @Model.Value("message")</p>
+
+
+@{
+	var selection = Umbraco.ContentAtRoot().FirstOrDefault()
+    .Children()
+    .Where(x => x.IsVisible());
+}
+<ul>
+	@foreach (var item in selection)
+	{
+		<li>
+			<a href="@item.Url()">@item.Name()</a>
+		</li>
+	}
+</ul>
+
